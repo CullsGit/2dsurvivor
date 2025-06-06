@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ability" load_steps=3 format=3 uid="uid://b0yutw82b5g5"]
+
+[ext_resource type="PackedScene" uid="uid://cysv401tytwyl" path="res://scenes/ability/axe_ability_controller/axe_ability_controller.tscn" id="1_lxg8a"]
+[ext_resource type="Script" uid="uid://cnvspy2f6j7cb" path="res://resources/upgrades/ability.gd" id="1_vgov1"]
+
+[resource]
+script = ExtResource("1_vgov1")
+ability_controller_scene = ExtResource("1_lxg8a")
+id = "axe"
+name = "Axe"
+description = "Periodically sends out a spinning axe."
